@@ -1,3 +1,8 @@
+# Folders
+arg_parser/
+
+#Intelij stuff
+*.iml
 # Compiled class file
 *.class
 
