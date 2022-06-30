@@ -24,4 +24,8 @@ public class Args {
         else if (patternType.equals("[*]"))
             marshalers.put(patternID, new StringArrayMarshaler());
     }
+
+    public boolean getBoolean(char arg){
+        return BooleanArgMarshaler.getValue(marshalers.get(arg));
+    }
 }
