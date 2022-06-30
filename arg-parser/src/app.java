@@ -1,6 +1,5 @@
 public class app {
     public static void main(String[] args) {
-        System.out.println("dd");
-        Args arg = new Args();
+        Args arg = new Args("l p# d*", args);
     }
 }
