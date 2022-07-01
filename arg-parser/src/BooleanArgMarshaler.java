@@ -7,9 +7,8 @@ public class BooleanArgMarshaler implements  ArgsMarshaler{
         booleanValue = true;
     }
     public static boolean getValue(ArgsMarshaler am){
-        if (am instanceof BooleanArgMarshaler){
+        if (am instanceof BooleanArgMarshaler)
             return ((BooleanArgMarshaler) am).booleanValue;
-        }
         else
             return false;
     }

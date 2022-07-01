@@ -63,4 +63,7 @@ public class Args {
     public boolean getBoolean(char arg){
         return BooleanArgMarshaler.getValue(marshalers.get(arg));
     }
+    public int getInteger(char arg){
+        return IntegerArgMarshaler.getValue(marshalers.get(arg));
+    }
 }
